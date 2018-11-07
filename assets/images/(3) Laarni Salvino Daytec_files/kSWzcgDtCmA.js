@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["bqB6L"]); }
+
+__d("LaminarAction",["AdsDataAtom","AdsDataDispatchUtils"],(function(a,b,c,d,e,f){"use strict";__p&&__p();function a(a,c,d){var e=typeof c==="string"?c:c.actionType;c=function(c,f){var g=a().reduce(function(a,b){b&&a.push(b);return a},[]);b("AdsDataAtom").__dataPluginsDispatch(b("AdsDataDispatchUtils").mergeParameters(e,g,c,d),f)};return{dispatch:c,actionType:e}}e.exports={create:a}}),null);

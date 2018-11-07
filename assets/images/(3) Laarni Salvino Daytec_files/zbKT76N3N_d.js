@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["T6ZjH"]); }
+
+__d("LaminarReducer",["AdsDataAtom","DataPluginsLogger","Laminar","gkx"],(function(a,b,c,d,e,f){"use strict";__p&&__p();function a(a,c,d,e){__p&&__p();e===void 0&&(e=!1);var f=b("Laminar").__createExperimentalSelector1(d,function(a){return a}),g=function(d,g){var h=f.select(d);d=c.select(d);h=a.reduce(d,g,h);if(b("gkx")("676926")&&h!==d){d=e?"LEGACY_FLUX_REDUCE_FALLBACK":"DATA_PLUGINS_REDUCE";b("DataPluginsLogger").log(d,g.actionType,c.provider)}return h};d=function(a){return g(b("AdsDataAtom").__dataPluginsGetAlteredState(),a)};return Object.assign(d,{provider:c.provider,providerInitialState:function(){return c.getInitialState()},reduce:g,triggerReducers:c.triggerReducers})}e.exports={create:a}}),null);
