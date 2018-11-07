@@ -7,19 +7,19 @@ body{
 
 }
 h1{
-	color: black;
+	color: pink ;
 	font-size: 50px;
 	font-weight: normal;
 	margin-bottom: 0;
 }
 h2 {
-	color: black;
+	color: pink;
 	font-size: 25px;
 	margin-top: 20;
 	opacity:.9;
 }
 .bio{
-	color: black;
+	color: pink;
 	font-size: 14px;
 	opacity: .7;
 
