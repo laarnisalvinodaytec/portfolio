@@ -7,27 +7,32 @@ body{
 
 }
 h1{
-	color: pink ;
+	color: #ffc0cb ;
 	font-size: 50px;
 	font-weight: normal;
 	margin-bottom: 0;
 }
+
+h1:hover, h2:hover, .bio:hover{
+	color: #efa8b4;
+	cursor:pointer;
+}
 h2 {
-	color: pink;
+	color: #ffc0cb;
 	font-size: 25px;
 	margin-top: 20;
 	opacity:.9;
 }
 .bio{
-	color: pink;
+	color: #ffc0cb;
 	font-size: 14px;
-	opacity: .7;
+	opacity: .8;
 
  }
 
 .me {
 	height: 250px;
-	border-radius: 150%;
+	border-radius: 170%;
 	border-style: solid;
 	border-color: white;
 	margin-top: 40px;
